@@ -1,4 +1,3 @@
-import React from 'react';
 import { useRef, useState, useEffect } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import { v4 as uuidv4 } from 'uuid';
@@ -78,7 +77,7 @@ if(passwords){
     <span>Pass</span>
     <span className='text-green-900'>OP/&gt;</span>
   </div>
-  <p className='text-gray-600'>Your own Passwor d Manager</p>
+  <p className='text-gray-600'>Your own Password Manager</p>
    </div>
 
   <div className=" flex flex-col p-4 gap-4 items-center ">
